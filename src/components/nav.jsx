@@ -13,22 +13,22 @@ export class nav extends Component {
                     </li>
                     <ul className='nav-cont'>
                         <li>
-                            <a href=''>
+                            <a href='#home'>
                                 Home
                             </a>
                         </li>
                         <li>
-                            <a href=''>
+                            <a href='#about'>
                                 About
                             </a>
                         </li>
                         <li>
-                            <a href=''>
+                            <a href='#projects'>
                                 Projects
                             </a>
                         </li>
                         <li>
-                            <a href=''>
+                            <a href='#contact'>
                                 Contact
                             </a>
                         </li>
