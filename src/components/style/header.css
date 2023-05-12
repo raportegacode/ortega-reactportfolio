@@ -1,0 +1,70 @@
+.header {
+    background-image: url("../images/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    padding-top: -100px;
+    /* padding-left: 15%; */
+}
+
+.header-cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: linear-gradient(rgba(255, 0, 0, 0), rgb(17, 17, 17) 80%);
+    height: auto;
+
+}
+
+.name {
+    font-size: 84px;
+    margin: 10px 0px;
+    padding: 0;
+}
+
+.gradpic {
+    margin: 150px 0px;
+}
+
+.header-subtxt {
+
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    color: white;
+}
+
+.header-subtxt p {
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contact-btn {
+    font-size: 24px;
+    display: flex;
+    width: fit-content;
+    padding: 24px 48px;
+    border-radius: 20px;
+    border: 2px solid rgb(242, 111, 25);
+    background-color: transparent;
+    color: rgb(242, 111, 25);
+    transition: 1s ease-out;
+}
+
+.contact-btn:hover {
+    transition: 1s ease-in;
+    background-color: rgb(242, 111, 25);
+
+    color: white;
+    cursor: pointer;
+}
+
+@keyframes createBox {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+.nav {
+    display: flex;
+    /* position: fixed; */
+    flex-direction: column;
+    justify-content: flex-start;
+
+    list-style: none;
+
+    /* height: 100vh; */
+    text-align: center;
+
+    background-color: #141414;
+}
+
+.fixedNav {
+    width: 12%;
+    position: fixed;
+}
+
+.navlogo {
+    width: 95%;
+    padding-bottom: 35%;
+}
+
+.nav-cont {
+    margin-top: 60px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+
+}
+
+.nav-cont li {
+    border-top: rgb(255, 255, 255, 0.5);
+    border-left: none;
+    border-right: none;
+    border-bottom: rgb(255, 255, 255, 0.5);
+    border-width: 1px;
+    border-style: solid;
+    padding: 20px 0px;
+}
+
+.nav-cont li:first-child {
+    border-top: 2px solid rgb(255, 255, 255, 0.5);
+
+}
+
+.nav-cont li:last-child {
+    border-bottom: 2px solid rgb(255, 255, 255, 0.5);
+}
+
+.nav-cont li a {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-cont li a:hover {
+    transition: .5s ease;
+    color: rgb(242, 111, 25);
+}
