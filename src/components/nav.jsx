@@ -24,7 +24,6 @@ export class nav extends Component {
                     duration: 800
                 });
                 setTimeout(() => {
-
                     x.style.display = "none";
                 }, 800);
             } else {
@@ -46,7 +45,7 @@ export class nav extends Component {
                             <img className='navlogo' src={ClearLogo} alt='logo' />
                         </li>
                         <li className='mobile-btn'>
-                            <a id='nav-btn' href="javascript:void(0);" onClick={onClick}>
+                            <a id='nav-btn' href="onclick" onClick={onClick}>
                                 <img src={hamburger} alt="hamburger" />
                             </a>
                         </li>
