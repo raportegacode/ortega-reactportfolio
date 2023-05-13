@@ -8,32 +8,36 @@ export class nav extends Component {
 
 
     render() {
-        // document.getElementById('nav-btn').onClick = slideIn.play;
+        anime({
+            targets: '.nav-cont',
+            translateY: 0,
+        });
 
 
+        var trigger = true;
         function onClick() {
-
-
-            var x = document.getElementById("nav-cont");
-            if (x.style.display === "block") {
+            var width = window.innerWidth
+            // nav is off
+            if (trigger === false && width <= 600) {
                 anime({
                     targets: '.nav-cont',
-                    translateY: -550,
-
-                    // backgroundColor: '#FFF',
-                    duration: 800
+                    translateY: -500,
+                    duration: 800,
+                    easing: 'spring(1, 80, 10, 0)'
                 });
-                setTimeout(() => {
-                    x.style.display = "none";
-                }, 800);
-            } else {
+
+                trigger = true;
+                // nav is on
+            } else if (trigger === true && width <= 600) {
+                trigger = false;
                 anime({
                     targets: '.nav-cont',
-                    translateY: 1,
-
+                    translateY: -10,
+                    easing: 'spring(1, 80, 10, 0)',
                     duration: 800
                 });
-                x.style.display = "block";
+
+                // x.style.display = "block";
             }
         }
         return (
@@ -52,22 +56,22 @@ export class nav extends Component {
                     </ul>
                     <ul className='nav-cont' id='nav-cont'>
                         <li>
-                            <a href='#home'>
+                            <a href='#home' onClick={onClick}>
                                 Home
                             </a>
                         </li>
                         <li>
-                            <a href='#about'>
+                            <a href='#about' onClick={onClick} >
                                 About
                             </a>
                         </li>
                         <li>
-                            <a href='#projects'>
+                            <a href='#projects' onClick={onClick}>
                                 Projects
                             </a>
                         </li>
                         <li>
-                            <a href='#contact'>
+                            <a href='#contact' onClick={onClick}>
                                 Contact
                             </a>
                         </li>

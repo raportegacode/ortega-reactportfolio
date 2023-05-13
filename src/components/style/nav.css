@@ -23,6 +23,7 @@
 }
 
 .nav-cont {
+    transform: translateY(0);
     margin-top: 60px;
     flex-direction: column;
     display: flex;
@@ -78,10 +79,10 @@
 @media (max-width: 480px) {
     .fixedNav {
         width: 100%;
-        position: fixed;
     }
 
     .nav {
+        /* position: fixed; */
         flex-direction: row;
         justify-content: flex-end;
         list-style: none;
@@ -91,23 +92,25 @@
     .navlogo {
         width: 7%;
         padding-bottom: 0%;
-        margin-left: -40px;
+        margin-left: 20px;
     }
 
     .mobile-btn {
+        /* position: fixed; */
         display: block;
     }
 
     .navlogo-cont {
         display: flex;
+        text-align: left;
         margin-right: 30px;
         justify-content: space-between;
     }
 
 
     .nav-cont {
-        transform: translateY(-25px);
-        display: none;
+        transform: translateY(-400px);
+
         margin-top: 40px;
         background-color: rgb(20, 20, 20, 0.5);
 
@@ -116,7 +119,7 @@
     .nav-cont li a {
         display: flex;
 
-        margin-left: 11.5em;
+        /* margin-left: 11.5em; */
     }
 
 

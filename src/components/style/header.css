@@ -4,7 +4,6 @@
     background-repeat: no-repeat;
     background-color: black;
     padding-top: -100px;
-    /* padding-left: 15%; */
 }
 
 .header-cont {
@@ -13,7 +12,6 @@
     justify-content: space-around;
     background-image: linear-gradient(rgba(255, 0, 0, 0), rgb(17, 17, 17) 80%);
     height: auto;
-
 }
 
 .name {
@@ -54,7 +52,6 @@
 .contact-btn:hover {
     transition: 1s ease-in;
     background-color: rgb(242, 111, 25);
-
     color: white;
     cursor: pointer;
 }
@@ -66,5 +63,38 @@
 
     to {
         transform: scale(1);
+    }
+}
+
+@media (max-width: 480px) {
+    .header-cont {
+
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
+    .header {
+        margin-bottom: -2px;
+        padding-top: 100px;
+    }
+
+    .gradpic {
+        width: 40%;
+        margin: 0px 0px;
+    }
+
+    .name {
+        font-size: 24px;
+    }
+
+    .header-subtxt p {
+        font-size: 10px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .contact-btn {
+        font-size: 10px;
+        padding: 10px 24px;
+        border-radius: 20px;
     }
 }
