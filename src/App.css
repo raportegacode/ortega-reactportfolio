@@ -2,3 +2,15 @@
     display: grid;
     grid-template-columns: 12% 88%;
 }
+
+.App-Cont {
+    margin-left: -1px
+}
+
+@media (max-width: 480px) {
+    .App {
+        display: block;
+    }
+
+    /* grid-template-columns: 12% 88%; */
+}
