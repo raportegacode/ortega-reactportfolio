@@ -45,7 +45,7 @@ export class nav extends Component {
                             <img className='navlogo' src={ClearLogo} alt='logo' />
                         </li>
                         <li className='mobile-btn'>
-                            <a id='nav-btn' href="onclick" onClick={onClick}>
+                            <a id='nav-btn' href="#nav" onClick={onClick}>
                                 <img src={hamburger} alt="hamburger" />
                             </a>
                         </li>
