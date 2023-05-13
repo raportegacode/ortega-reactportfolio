@@ -1,4 +1,4 @@
-import React, { Component, useRef } from 'react'
+import React, { Component } from 'react'
 import './style/nav.css';
 import ClearLogo from './images/RapLogo-clear.png';
 import hamburger from './images/hamburger.png';
