@@ -84,7 +84,7 @@
 
 
 #nav-btn:active {
-    filter: drop-shadow(3px 0 0 rgb(242, 111, 25)) drop-shadow(0 4px 0 rgb(242, 111, 25)) drop-shadow(-2px 0 0 rgb(242, 111, 25)) drop-shadow(0 -2px 0 rgb(242, 111, 25));
+    filter: drop-shadow(3px 0 0 rgb(242, 111, 25)) drop-shadow(0 3px 0 rgb(242, 111, 25)) drop-shadow(-2px 0 0 rgb(242, 111, 25)) drop-shadow(0 -2px 0 rgb(242, 111, 25));
     transition: 0.2s ease-in;
     border-radius: 10px;
 }
