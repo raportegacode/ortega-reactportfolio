@@ -8,15 +8,14 @@ export class nav extends Component {
 
 
     render() {
-        anime({
-            targets: '.nav-cont',
-            translateY: 0,
-        });
-
-
+        var width = window.innerWidth
         var trigger = true;
+
+
+
+
+
         function onClick() {
-            var width = window.innerWidth
             // nav is off
             if (trigger === false && width <= 600) {
                 anime({
@@ -41,7 +40,7 @@ export class nav extends Component {
             }
         }
         return (
-            <div className='nav'>
+            <div className='nav' >
                 <div className='fixedNav'>
                     <ul className='navlogo-cont'>
 
@@ -49,9 +48,9 @@ export class nav extends Component {
                             <img className='navlogo' src={ClearLogo} alt='logo' />
                         </li>
                         <li className='mobile-btn'>
-                            <a id='nav-btn' href="#nav" onClick={onClick}>
+                            <button id='nav-btn' onClick={onClick}>
                                 <img src={hamburger} alt="hamburger" />
-                            </a>
+                            </button>
                         </li>
                     </ul>
                     <ul className='nav-cont' id='nav-cont'>

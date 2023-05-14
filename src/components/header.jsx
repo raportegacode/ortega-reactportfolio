@@ -18,7 +18,7 @@ export class header extends Component {
                 <div className='header-cont' >
 
                     <div className='header-subtxt'>
-                        <h1 className='name'>Hi, <br />I'm Raphael<br />Ortega</h1>
+                        <h1 className='name'>Hi, <br />I'm Raphael<br className='remove' /> Ortega</h1>
                         <p>Web Developer</p>
                         <button className='contact-btn'>Contact me!</button>
                     </div>
