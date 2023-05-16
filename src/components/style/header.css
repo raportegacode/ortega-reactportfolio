@@ -9,19 +9,51 @@
 .header-cont {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-image: linear-gradient(rgba(255, 0, 0, 0), rgb(17, 17, 17) 80%);
     height: auto;
 }
 
 .name {
-    font-size: 84px;
+    font-size: 124px;
     margin: 10px 0px;
     padding: 0;
 }
 
-.gradpic {
+.pic-cont {
+    width: 25%;
     margin: 150px 0px;
+    position: relative;
+}
+
+.gradpic {
+    width: 100%;
+    /* margin: 150px 0px; */
+
+}
+
+.pic-cont::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -.8em;
+    left: -.8em;
+    width: 70%;
+    height: 60%;
+    border-top: .8em solid white;
+    border-left: .8em solid white;
+}
+
+.pic-cont::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -.5em;
+    right: -.8em;
+    width: 80%;
+    height: 60%;
+    border-bottom: .8em solid #f26f19;
+    border-right: .8em solid #f26f19;
 }
 
 .header-subtxt {
@@ -80,12 +112,7 @@
         padding-top: 100px;
     }
 
-    .gradpic {
 
-        width: 60%;
-        margin: 0px 0px 0px 120px;
-
-    }
 
     .name {
         font-size: 24px;
@@ -109,4 +136,14 @@
         padding: 10px 24px;
         border-radius: 20px;
     }
+
+    .pic-cont {
+        width: 50%;
+        margin: 100px 0px 50px;
+        position: relative;
+
+    }
+
+
+
 }

@@ -22,7 +22,9 @@ export class header extends Component {
                         <p>Web Developer</p>
                         <button className='contact-btn'>Contact me!</button>
                     </div>
-                    <img className='gradpic' src={gradPic} alt="gradpic"></img>
+                    <div className='pic-cont'>
+                        <img className='gradpic' src={gradPic} alt="gradpic"></img>
+                    </div>
                 </div>
             </div>
         )
