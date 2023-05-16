@@ -105,7 +105,8 @@
     }
 
     .nav {
-
+        position: relative;
+        z-index: 100;
         flex-direction: row;
         justify-content: flex-end;
         list-style: none;
@@ -135,6 +136,7 @@
     .nav-cont {
         transform: translateY(-400px);
 
+        width: 100%;
         margin-top: 40px;
         background-color: rgb(20, 20, 20, 0.5);
 
