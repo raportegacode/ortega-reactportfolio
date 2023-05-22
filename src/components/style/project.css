@@ -18,4 +18,81 @@
     color: rgb(242, 111, 25);
 }
 
+.project-details {
+
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.col1 {
+    background-image: url("../images/Group 1.png");
+
+}
+
+.col2 {
+    background-image: url("../images/Group 2.png");
+
+}
+
+.projectcol:active {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.projectcol {
+
+    padding: 25% 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .5s ease-in-out;
+}
+
+.projectcol a {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+    border-radius: 14px;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(242, 111, 25);
+}
+
+
+
+.project-details img {
+    width: 100%;
+}
+
+.col1:hover {
+    background-blend-mode: color;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.col2:hover {
+
+    background-blend-mode: color;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.col1:hover a,
+.col2:hover a {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+
+}
+
+.col1 a:hover,
+.col2 a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+
 /* @media only screen and (max-width: 480px) {} */
