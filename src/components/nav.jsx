@@ -10,11 +10,6 @@ export class nav extends Component {
     render() {
         var width = window.innerWidth
         var trigger = true;
-
-
-
-
-
         function onClick() {
             // nav is off
             if (trigger === false && width <= 600) {
@@ -55,7 +50,7 @@ export class nav extends Component {
                     </ul>
                     <ul className='nav-cont' id='nav-cont'>
                         <li>
-                            <a href='#home' onClick={onClick}>
+                            <a href={'/'} onClick={onClick}>
                                 Home
                             </a>
                         </li>
@@ -65,7 +60,7 @@ export class nav extends Component {
                             </a>
                         </li>
                         <li>
-                            <a href='#project' onClick={onClick}>
+                            <a href={'project'} onClick={onClick}>
                                 Projects
                             </a>
                         </li>

@@ -32,7 +32,7 @@
 
 }
 
-.pic-cont::after {
+/* .pic-cont::after {
     content: "";
     display: block;
     position: absolute;
@@ -54,7 +54,7 @@
     height: 60%;
     border-bottom: .8em solid #f26f19;
     border-right: .8em solid #f26f19;
-}
+} */
 
 .header-subtxt {
 

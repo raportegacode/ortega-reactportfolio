@@ -1,0 +1,27 @@
+.App {
+    display: grid;
+    grid-template-columns: 12% 87.95%;
+    height: 100vh;
+    background: url('./components/images/background.png') no-repeat;
+    background-size: cover;
+
+}
+
+.App-Cont {
+    margin-left: -1px;
+    margin-right: -1px;
+    background-image: linear-gradient(rgba(255, 0, 0, 0), rgb(17, 17, 17, 0.75) 80%);
+
+}
+
+.html {
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 480px) {
+    .App {
+        display: block;
+    }
+
+    /* grid-template-columns: 12% 88%; */
+}
