@@ -1,23 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Secular+One&family=Source+Code+Pro&display=swap');
+
 .header {
     background-image: url("../images/background.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
-    padding-top: -100px;
 }
 
 .header-cont {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-image: linear-gradient(rgba(255, 0, 0, 0), rgb(17, 17, 17, 0.75) 80%);
-    height: auto;
+    background-image: linear-gradient(rgba(255, 0, 0, 0), rgb(17, 17, 17) 90%);
+    height: 90vh;
+    padding-top: 50px;
 }
 
 .name {
-    font-size: 124px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 92px;
+    line-height: 82px;
     margin: 10px 0px;
     padding: 0;
+    font-family: 'Secular One';
 }
 
 .pic-cont {
@@ -66,10 +72,11 @@
 
 .header-subtxt p {
     font-size: 24px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Source Code Pro';
 }
 
 .contact-btn {
+    font-family: 'Inter';
     font-size: 24px;
     display: flex;
     width: fit-content;
