@@ -3,7 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Projects from './Project-page';
+import Contacts from './contact';
 import reportWebVitals from './reportWebVitals';
+
 
 import {
   createBrowserRouter,
@@ -17,6 +19,11 @@ const router = createBrowserRouter([
   {
     path: "/project",
     element: <Projects />,
+  },
+
+  {
+    path: "/contact",
+    element: <Contacts />,
   },
 ]);
 const root = ReactDOM.createRoot(document.getElementById('root'));

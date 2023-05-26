@@ -65,7 +65,7 @@ export class nav extends Component {
                             </a>
                         </li>
                         <li>
-                            <a href='#contact' onClick={onClick}>
+                            <a href={'contact'} onClick={onClick}>
                                 Contact
                             </a>
                         </li>
