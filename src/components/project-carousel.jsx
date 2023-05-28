@@ -6,6 +6,8 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import 'swiper/css/effect-fade';
 import './style/carousel.css'
+// import email from './images/email.png';
+// import linkedin from './images/linkedin.png';
 import proj1 from './images/Group 1.png'
 import proj2 from './images/Group 2.png'
 import proj3 from './images/Group 3.png'
@@ -77,12 +79,20 @@ function project() {
 
             </Swiper>
 
-            {/* <h1 className='carousel-title'>My Projects</h1>
+            {/* <footer>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Est esse cupiditate amet id odio, molestias nisi nihil alias, debitis et ipsum nam
-                    repellendus voluptas illo eaque voluptates, voluptate pariatur perferendis?</p> */}
+                <h4>© 2023 Raphael Ortega. All rights reserved.</h4>
+                <div className='footer-img'>
+                    <a href="mailto:raphaelmar.ortega@gmail.com">
 
+                        <img src={email} alt="email" />
+                    </a>
+                    <a href="linkedin.com/in/raphael-ortega279836240">
+
+                        <img src={linkedin} alt="linkedin" />
+                    </a>
+                </div>
+            </footer> */}
 
         </div>
     )

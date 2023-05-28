@@ -1,5 +1,7 @@
 import React from 'react'
 import './style/project.css'
+import email from './images/email.png';
+import linkedin from './images/linkedin.png';
 
 function project() {
     return (
@@ -30,6 +32,20 @@ function project() {
                     </div>
                 </div>
             </div>
+            <footer>
+
+                <h4>© 2023 Raphael Ortega. All rights reserved.</h4>
+                <div className='footer-img'>
+                    <a href="mailto:raphaelmar.ortega@gmail.com">
+
+                        <img src={email} alt="email" />
+                    </a>
+                    <a href="linkedin.com/in/raphael-ortega279836240">
+
+                        <img src={linkedin} alt="linkedin" />
+                    </a>
+                </div>
+            </footer>
         </div>
     )
 }

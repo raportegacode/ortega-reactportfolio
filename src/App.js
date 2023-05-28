@@ -10,7 +10,9 @@ function App() {
       <Nav ></Nav>
       <div className='App-Cont'>
         <Header></Header>
+
         <Projects></Projects>
+
       </div>
     </div>
   );

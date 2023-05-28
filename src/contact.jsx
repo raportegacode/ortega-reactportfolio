@@ -7,7 +7,7 @@ import email from './components/images/email.png';
 import github from './components/images/github.png';
 import linkedin from './components/images/linkedin.png';
 
-// import { useRef } from 'react';
+
 function App() {
     return (
         <div className="App" >
@@ -15,7 +15,7 @@ function App() {
             <div className='contact-pageCont'>
                 <h1>Contact me</h1>
                 <p>Get in touch with me!</p>
-                {/* <div className="contact-cont"> */}
+
                 <div className="column1">
                     <div className='contact-details'>
                         <img src={loc} alt="Pin Icon" />
@@ -40,9 +40,24 @@ function App() {
                 </div>
 
 
+                {/* <footer>
+
+                    <h4>© 2023 Raphael Ortega. All rights reserved.</h4>
+                    <div className='footer-img'>
+                        <a href="mailto:raphaelmar.ortega@gmail.com">
+
+                            <img src={email} alt="email" />
+                        </a>
+                        <a href="linkedin.com/in/raphael-ortega279836240">
+
+                            <img src={linkedin} alt="linkedin" />
+                        </a>
+                    </div>
+                </footer> */}
             </div>
+
         </div>
-        // </div>
+
     );
 }
 
