@@ -70,6 +70,10 @@
     color: white;
 }
 
+.header-subtxt a {
+    text-decoration: none;
+}
+
 .header-subtxt p {
     font-size: 24px;
     font-family: 'Source Code Pro';

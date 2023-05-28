@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Secular+One&family=Source+Code+Pro&display=swap');
+
+
+.aboutme {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 200px 150px 50px;
+    height: 69vh;
+}
+
+.aboutme-container {
+    background-image: linear-gradient(rgba(255, 0, 0, 0), rgb(17, 17, 17) 95%);
+
+}
+
+.aboutme h2 {
+    margin: 0;
+    font-family: 'Secular One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 81px;
+    color: #F26F19;
+}
+
+/* .aboutme {
+    background-image: linear-gradient(rgba(255, 0, 0, 0), rgb(17, 17, 17) 95%);
+
+} */
+
+.aboutme p {
+    padding-right: 42px;
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding-bottom: 100px;
+
+}
+
+.aboutme h4 {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 44px;
+}
+
+.aboutme a {
+    text-decoration: none;
+    padding: 12px 22px;
+    border: 1px solid rgba(242, 111, 25, 1);
+    border-radius: 12px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #F26F19;
+}

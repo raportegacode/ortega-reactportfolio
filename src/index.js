@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import Projects from './Project-page';
 import Contacts from './contact';
+import About from './about';
 import reportWebVitals from './reportWebVitals';
 
 
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
   {
     path: "/contact",
     element: <Contacts />,
+  },
+  {
+    path: "/about",
+    element: <About />,
   },
 ]);
 const root = ReactDOM.createRoot(document.getElementById('root'));

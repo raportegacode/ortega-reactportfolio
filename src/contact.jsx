@@ -29,11 +29,11 @@ function App() {
                         <img src={email} alt="Pin Icon" />
                         <p>raphaelmar.ortega@gmail.com</p>
                     </a>
-                    <a href='https://github.com/raportegacode' className='contact-details'>
+                    <a href='https://github.com/raportegacode' target='_blank' rel="noreferrer" className='contact-details'>
                         <img src={github} alt="Pin Icon" />
                         <p>Go to my Github</p>
                     </a>
-                    <a href='linkedin.com/in/raphael-ortega279836240' className='contact-details'>
+                    <a href="https://linkedin.com/in/raphael-ortega" target='_blank' rel="noreferrer" className='contact-details'>
                         <img src={linkedin} alt="Pin Icon" />
                         <p>Go to my Linkedin</p>
                     </a>
@@ -48,7 +48,7 @@ function App() {
 
                             <img src={email} alt="email" />
                         </a>
-                        <a href="linkedin.com/in/raphael-ortega279836240">
+                        <a href="https://linkedin.com/in/raphael-ortega" target='_blank' rel="noreferrer">
 
                             <img src={linkedin} alt="linkedin" />
                         </a>
