@@ -19,7 +19,7 @@ function project() {
     };
 
     var width = window.innerWidth
-    var trigger = true;
+    var trigger = false;
     // setInterval(() => {
     if (width >= 600) {
 
