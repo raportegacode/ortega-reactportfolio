@@ -20,14 +20,14 @@ function project() {
 
     var width = window.innerWidth
     var trigger = true;
-
-    if (trigger === false && width <= 600) {
-
+    // setInterval(() => {
+    if (width >= 600) {
 
         trigger = true;
-    } else if (trigger === true && width <= 600) {
+    } else if (width < 600) {
         trigger = false;
     }
+    // }, 1000);
 
     return (
         <div className='carousel'>
