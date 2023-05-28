@@ -24,7 +24,7 @@
     }
 
     .projectpage {
-        height: 100%;
+        height: 100vh;
     }
 
     /* grid-template-columns: 12% 88%; */
