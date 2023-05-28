@@ -22,9 +22,9 @@ function project() {
     var trigger = false;
     // setInterval(() => {
     if (width >= 600) {
-
         trigger = true;
     } else if (width < 600) {
+
         trigger = false;
     }
     // }, 1000);
@@ -34,13 +34,10 @@ function project() {
 
             <Swiper
                 modules={[Mousewheel, Pagination, Navigation, Autoplay]}
-
                 spaceBetween={20}
                 slidesPerView={1}
                 pagination={pagination}
-                navigation={{
-                    enabled: trigger,
-                }}
+                navigation={trigger}
                 mousewheel={{
                     invert: true,
                     forceToAxis: false

@@ -110,6 +110,10 @@
 }
 
 @media only screen and (max-width: 480px) {
+    .swiper-button-hidden {
+        display: none;
+        visibility: hidden;
+    }
 
     .carousel {
         color: white;
