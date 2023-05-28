@@ -23,5 +23,9 @@
         display: block;
     }
 
+    .projectpage {
+        height: 100%;
+    }
+
     /* grid-template-columns: 12% 88%; */
 }

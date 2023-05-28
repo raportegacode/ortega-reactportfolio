@@ -4,7 +4,7 @@ import Carousel from './components/project-carousel';
 import './projectpage.css';
 function Projectpage() {
     return (
-        <div className="App" >
+        <div className="App projectpage" >
             <Nav ></Nav>
             <div className='App-Cont'>
                 <Carousel></Carousel>
