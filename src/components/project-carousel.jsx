@@ -40,7 +40,6 @@ function project() {
                 pagination={pagination}
                 navigation={{
                     enabled: trigger,
-                    invert: false
                 }}
                 mousewheel={{
                     invert: true,
