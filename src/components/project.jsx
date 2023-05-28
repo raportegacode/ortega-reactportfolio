@@ -48,7 +48,7 @@ function project() {
             <div className="skills-cont">
 
                 <h2>My skills</h2>
-                <p>As an individual with a strong drive for competence, I possess a natural talent for embracing new technologies and expanding my knowledge and expertise. I am consistently motivated to enhance my skill set and stay up-to-date with the latest advancements in the field. Throughout my journey, I have acquired and honed a diverse range of skills, some of which include:</p>
+                <p>As an aspiring fresh graduate, I am deeply passionate about learning and embracing new technologies. I am highly motivated to continuously enhance my skills and stay informed about the latest advancements. For more information about my diverse range of abilities, please visit the <a className='intext-link' href={'about'}>about page</a>.</p>
                 <div className="skills">
                     <div className="slide-track">
                         <div className="slide"><img src={office} alt="office" /></div>
