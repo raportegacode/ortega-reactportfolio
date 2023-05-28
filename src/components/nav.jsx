@@ -15,9 +15,9 @@ export class nav extends Component {
             if (trigger === false && width <= 600) {
                 anime({
                     targets: '.nav-cont',
-                    translateY: -500,
+                    translateX: -500,
                     duration: 800,
-                    easing: 'spring(1, 80, 10, 0)'
+                    easing: 'cubicBezier(.5, .05, .1, .3)'
                 });
 
                 trigger = true;
@@ -26,8 +26,8 @@ export class nav extends Component {
                 trigger = false;
                 anime({
                     targets: '.nav-cont',
-                    translateY: -10,
-                    easing: 'spring(1, 80, 10, 0)',
+                    translateX: 0,
+                    easing: 'cubicBezier(.5, .05, .1, .3)',
                     duration: 800
                 });
 
@@ -40,7 +40,9 @@ export class nav extends Component {
                     <ul className='navlogo-cont'>
 
                         <li>
-                            <img className='navlogo' src={ClearLogo} alt='logo' />
+                            <a href={"/"}>
+                                <img className='navlogo' src={ClearLogo} alt='logo' />
+                            </a>
                         </li>
                         <li className='mobile-btn'>
                             <button id='nav-btn' onClick={onClick}>

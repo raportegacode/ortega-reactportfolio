@@ -84,7 +84,7 @@
 
 
 #nav-btn:active {
-    filter: drop-shadow(3px 0 0 rgb(242, 111, 25)) drop-shadow(0 3px 0 rgb(242, 111, 25)) drop-shadow(-2px 0 0 rgb(242, 111, 25)) drop-shadow(0 -2px 0 rgb(242, 111, 25));
+    filter: drop-shadow(3px 0 0 rgb(255, 192, 151)) drop-shadow(0 3px 0 rgb(255, 192, 151)) drop-shadow(-2px 0 0 rgb(255, 192, 151)) drop-shadow(0 -2px 0 rgb(255, 192, 151));
     transition: 0.2s ease-in;
     border-radius: 10px;
 }
@@ -95,18 +95,19 @@
 
 @media only screen and (min-width: 481px) {
     .nav-cont {
-        transform: translateY(0px);
+        transform: translateX(0px);
     }
 }
 
 @media only screen and (max-width: 480px) {
     .fixedNav {
         width: 100%;
+        /* z-index: 5; */
     }
 
     .nav {
         position: relative;
-        z-index: 100;
+        /* z-index: auto; */
         flex-direction: row;
         justify-content: flex-end;
         list-style: none;
@@ -130,16 +131,22 @@
         text-align: left;
         margin-right: 30px;
         justify-content: space-between;
+        position: absolute;
+        z-index: 2;
     }
 
 
     .nav-cont {
-        transform: translateY(-400px);
-
-        width: 100%;
-        margin-top: 40px;
-        background-color: rgb(20, 20, 20, 0.5);
-
+        z-index: 1;
+        position: absolute;
+        transform: translateX(-500px);
+        /* height: 30vh; */
+        width: 101%;
+        padding-top: 20%;
+        margin-top: 0px;
+        background-color: rgb(20, 20, 20);
+        /* border-left: 2px solid rgb(255, 255, 255, 0.5); */
+        border-right: 2px solid rgb(255, 255, 255, 0.5);
     }
 
     .nav-cont li a {
