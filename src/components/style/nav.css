@@ -18,11 +18,15 @@
 }
 
 .navlogo {
+    animation: 2s fadein;
+
     width: 100%;
     padding-bottom: 35%;
 }
 
 .nav-cont {
+    animation: 1s fadein;
+
     transform: translateY(0);
     margin-top: 60px;
     flex-direction: column;
@@ -100,12 +104,17 @@
 }
 
 @media only screen and (max-width: 480px) {
+    .nav-cont {
+        transform: translateX(-500);
+    }
+
     .fixedNav {
         width: 100%;
         /* z-index: 5; */
     }
 
     .nav {
+        animation: 3s fadein ease;
         position: relative;
         /* z-index: auto; */
         flex-direction: row;
@@ -139,7 +148,7 @@
     .nav-cont {
         z-index: 1;
         position: absolute;
-        transform: translateX(-500px);
+
         /* height: 30vh; */
         width: 101%;
         padding-top: 20%;
@@ -156,4 +165,14 @@
     }
 
 
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }

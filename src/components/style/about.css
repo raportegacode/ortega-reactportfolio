@@ -66,3 +66,40 @@
     text-align: center;
     color: #F26F19;
 }
+
+@media only screen and (max-width: 480px) {
+    .aboutme {
+        padding: 5px 40px;
+        height: 90vh;
+    }
+
+    .aboutme h2 {
+        margin: 0;
+        font-size: 38px;
+        line-height: 60px;
+    }
+
+    .aboutme p {
+        padding-right: 20px;
+        font-size: 12px;
+        line-height: 28px;
+        padding-bottom: 0px;
+    }
+
+    .aboutme h4 {
+        font-size: 20px;
+        line-height: 14px;
+    }
+
+    .aboutme a {
+        text-decoration: none;
+        padding: 8px 16px;
+        font-size: 14px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #F26F19;
+    }
+
+}

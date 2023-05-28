@@ -108,3 +108,36 @@
     text-align: center;
     color: #F26F19;
 }
+
+@media only screen and (max-width: 480px) {
+
+    .carousel {
+        color: white;
+        height: 88vh;
+        padding: 100px 0px 0px;
+    }
+
+    .slideimg {
+        padding: 0px;
+        order: -1;
+    }
+
+    .slide-conts {
+
+        grid-template-columns: auto;
+        padding: 40px;
+    }
+
+
+    .slide-details h1 {
+        margin-bottom: 0;
+        font-size: 32px;
+        line-height: 25px;
+    }
+
+    .slide-details p {
+        font-size: 14px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+}

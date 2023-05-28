@@ -17,6 +17,7 @@
 }
 
 .name {
+    animation: 3s fadein;
     font-style: normal;
     font-weight: 400;
     font-size: 124px;
@@ -33,34 +34,13 @@
 }
 
 .gradpic {
+    animation: 3s fadein;
+
     width: 100%;
     /* margin: 150px 0px; */
 
 }
 
-/* .pic-cont::after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: -.8em;
-    left: -.8em;
-    width: 70%;
-    height: 60%;
-    border-top: .8em solid white;
-    border-left: .8em solid white;
-}
-
-.pic-cont::before {
-    content: "";
-    display: block;
-    position: absolute;
-    bottom: -.5em;
-    right: -.8em;
-    width: 80%;
-    height: 60%;
-    border-bottom: .8em solid #f26f19;
-    border-right: .8em solid #f26f19;
-} */
 
 .header-subtxt {
 
@@ -71,10 +51,12 @@
 }
 
 .header-subtxt a {
+    animation: 3s fadein;
     text-decoration: none;
 }
 
 .header-subtxt p {
+    animation: 3s fadein;
     font-size: 24px;
     font-family: 'Source Code Pro';
 }
@@ -112,6 +94,7 @@
 @media (max-width: 480px) {
     .header-cont {
         flex-direction: column-reverse;
+        height: 80vh;
     }
 
     .header-cont:last-child {
@@ -127,6 +110,7 @@
 
     .name {
         font-size: 2em;
+        line-height: 1.5;
     }
 
     .remove {
@@ -138,18 +122,20 @@
     }
 
     .header-subtxt p {
+
         font-size: 10px;
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
 
     .contact-btn {
+        animation: 3s fadein;
         font-size: 10px;
         padding: 10px 24px;
         border-radius: 20px;
     }
 
     .pic-cont {
-
+        animation: 3s fadein;
         width: 50%;
         margin: 100px 0px;
         position: relative;
@@ -158,4 +144,15 @@
 
 
 
+}
+
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }

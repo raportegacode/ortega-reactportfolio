@@ -8,7 +8,20 @@ export class nav extends Component {
 
 
     render() {
-        var width = window.innerWidth
+
+        var width = window.innerWidth;
+        if (width <= 600) {
+            setTimeout(() => {
+                anime({
+                    targets: '.nav-cont',
+                    translateX: -500,
+                    duration: 1000,
+                    easing: 'easeOutBounce'
+                });
+
+
+            }, 500);
+        }
         var trigger = true;
         function onClick() {
             // nav is off

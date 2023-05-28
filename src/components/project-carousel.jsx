@@ -18,7 +18,16 @@ function project() {
         dynamicBullets: true,
     };
 
+    var width = window.innerWidth
+    var trigger = true;
 
+    if (trigger === false && width <= 600) {
+
+
+        trigger = true;
+    } else if (trigger === true && width <= 600) {
+        trigger = false;
+    }
 
     return (
         <div className='carousel'>
@@ -30,7 +39,7 @@ function project() {
                 slidesPerView={1}
                 pagination={pagination}
                 navigation={{
-
+                    enabled: trigger,
                     invert: false
                 }}
                 mousewheel={{
