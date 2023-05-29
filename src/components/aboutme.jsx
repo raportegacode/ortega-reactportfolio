@@ -3,8 +3,8 @@ import './style/about.css';
 import resume from './files/Ortega-Resume.pdf';
 
 
-import email from './images/email.png';
-import linkedin from './images/linkedin.png';
+// import email from './images/email.png';
+// import linkedin from './images/linkedin.png';
 function aboutme() {
     return (
         <div className='about-container'>
