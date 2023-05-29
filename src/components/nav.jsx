@@ -18,7 +18,7 @@ export class nav extends Component {
                     duration: 100,
                     easing: 'linear'
                 });
-
+                // updated
 
             }, 500);
         }
