@@ -15,8 +15,8 @@ export class nav extends Component {
                 anime({
                     targets: '.nav-cont',
                     translateX: -500,
-                    duration: 1500,
-                    easing: 'easeOutBounce'
+                    duration: 100,
+                    easing: 'linear'
                 });
 
 
