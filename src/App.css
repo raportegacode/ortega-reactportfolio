@@ -45,6 +45,7 @@ footer h4 {
 
 @media (max-width: 480px) {
     .App {
+        -webkit-tap-highlight-color: transparent;
         display: block;
     }
 
