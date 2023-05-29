@@ -19,7 +19,7 @@ function aboutme() {
 
 
 
-            <footer>
+            {/* <footer>
                 <h4>© 2023 Raphael Ortega. All rights reserved.</h4>
                 <div className='footer-img'>
                     <a href="mailto:raphaelmar.ortega@gmail.com">
@@ -31,7 +31,7 @@ function aboutme() {
                         <img src={linkedin} alt="linkedin" />
                     </a>
                 </div>
-            </footer>
+            </footer> */}
 
         </div>
     )
