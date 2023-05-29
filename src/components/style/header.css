@@ -21,7 +21,7 @@
     animation: 3s fadein;
     font-style: normal;
     font-weight: 400;
-    font-size: 124px;
+    font-size: 6rem;
     line-height: 118px;
     margin: 10px 0px;
     padding: 0;
@@ -29,7 +29,7 @@
 }
 
 .pic-cont {
-    width: 25%;
+    width: 30%;
     margin: 150px 0px;
     position: relative;
 }
