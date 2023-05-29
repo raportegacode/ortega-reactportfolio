@@ -112,6 +112,8 @@
 
 
     .name {
+        animation: 6s fadein;
+
         font-size: 2em;
         line-height: 1.5;
     }
@@ -126,19 +128,20 @@
 
     .header-subtxt p {
 
+        animation: 5s fadein;
         font-size: 10px;
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
 
     .contact-btn {
-        animation: 3s fadein;
+        animation: 5s fadein;
         font-size: 10px;
         padding: 10px 24px;
         border-radius: 20px;
     }
 
     .pic-cont {
-        animation: 3s fadein;
+        animation: 6s fadein;
         width: 50%;
         margin: 100px 0px;
         position: relative;
@@ -152,6 +155,10 @@
 
 @keyframes fadein {
     0% {
+        opacity: 0;
+    }
+
+    25% {
         opacity: 0;
     }
 

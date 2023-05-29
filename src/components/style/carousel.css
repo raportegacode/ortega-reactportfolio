@@ -116,6 +116,7 @@
     }
 
     .carousel {
+        animation: 3.5s fadein;
         color: white;
         height: 100%;
         padding: 0px 0px 0px;
@@ -148,5 +149,20 @@
         font-size: 14px;
         line-height: 24px;
         color: #FFFFFF;
+    }
+}
+
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
     }
 }

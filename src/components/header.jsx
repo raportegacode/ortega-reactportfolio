@@ -12,20 +12,35 @@ export class header extends Component {
                 anime({
                     targets: '.gradpic',
                     keyframes: [
-                        { translateY: -80 },
-                        { translateY: 0 }
+                        { translateY: -580 },
+                        { translateY: 0 },
+
                     ],
-                    duration: 1500,
+                    duration: 3500,
                     easing: 'easeOutElastic(1, .8)'
                 });
                 anime({
                     targets: '.header-anchor',
                     keyframes: [
-                        { translateY: 30 },
-                        { translateY: 0 }
+                        { translateY: 130 },
+                        { translateX: 30 },
+                        { translateY: 0 },
+                        { translateX: -30 },
+                        { translateX: 0 }
                     ],
-                    duration: 800,
-                    easing: 'easeOutElastic(1, .8)'
+                    duration: 2500,
+                    easing: 'steps(6)'
+                });
+                anime({
+                    targets: '.name',
+                    keyframes: [
+                        { translateX: -570 },
+                        { translateY: -170 },
+                        { translateX: 0 },
+                        { translateY: 0 },
+                    ],
+                    duration: 2500,
+                    easing: 'steps(6)'
                 });
 
             }, 500);

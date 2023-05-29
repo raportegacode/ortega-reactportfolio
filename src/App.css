@@ -55,6 +55,7 @@ footer h4 {
     }
 
     footer {
+        animation: 3.5s fadein;
         background-image: linear-gradient(rgba(255, 0, 0, 0), rgb(17, 17, 17) 80%);
     }
 
@@ -69,4 +70,19 @@ footer h4 {
     }
 
     /* grid-template-columns: 12% 88%; */
+}
+
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }

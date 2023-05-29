@@ -81,6 +81,7 @@
 @media only screen and (max-width: 480px) {
 
     .contact-pageCont {
+        animation: 3.5s fadein;
         margin: 0px;
         padding: 140px 40px;
         background-image: linear-gradient(rgba(255, 0, 0, 0), rgb(17, 17, 17) 80%);
@@ -125,4 +126,18 @@
         width: 3.5vh;
     }
 
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
