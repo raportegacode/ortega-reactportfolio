@@ -74,6 +74,10 @@
     cursor: pointer;
 }
 
+.contact-details img {
+    width: 4vh;
+}
+
 @media only screen and (max-width: 480px) {
 
     .contact-pageCont {
@@ -118,7 +122,7 @@
     }
 
     .contact-details img {
-        width: 4.5vh;
+        width: 3.5vh;
     }
 
 }

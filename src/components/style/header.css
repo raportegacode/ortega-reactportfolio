@@ -10,10 +10,11 @@
 .header-cont {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-image: linear-gradient(rgba(255, 0, 0, 0), rgb(17, 17, 17) 90%);
     height: 90vh;
-    padding-top: 50px;
+    padding: 50px 210px 0px;
+    /* padding-top: 50px; */
 }
 
 .name {
@@ -95,7 +96,7 @@
     .header-cont {
         flex-direction: column-reverse;
         height: 80vh;
-        padding-top: 0px;
+        padding: 0px 0px 0px;
     }
 
     .header-cont:last-child {
@@ -105,6 +106,7 @@
     .header {
         margin-bottom: -2px;
         padding-top: 100px;
+        background-position: right -200px top;
     }
 
 
