@@ -194,8 +194,8 @@
     }
 
     100% {
-        -webkit-transform: translateX(calc(-240px * 13));
-        transform: translateX(calc(-240px * 13));
+        -webkit-transform: translateX(calc(-240px * 12));
+        transform: translateX(calc(-240px * 12));
     }
 }
 
