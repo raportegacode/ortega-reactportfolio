@@ -15,6 +15,7 @@ import python from './images/python.png';
 import github from './images/github-icon.png';
 import wordpress from './images/wordpress.png';
 import filezilla from './images/filezilla.png';
+import nodejs from './images/node-js.png';
 
 
 function project() {
@@ -63,6 +64,7 @@ function project() {
                         <div className="slide"><img src={github} alt="github" /></div>
                         <div className="slide"><img src={wordpress} alt="wordpress" /></div>
                         <div className="slide"><img src={filezilla} alt="filezilla" /></div>
+                        <div className="slide"><img src={nodejs} alt="node.js" /></div>
 
                         <div className="slide"><img src={office} alt="office" /></div>
                         <div className="slide"><img src={js} alt="js" /></div>
@@ -76,6 +78,7 @@ function project() {
                         <div className="slide"><img src={github} alt="github" /></div>
                         <div className="slide"><img src={wordpress} alt="wordpress" /></div>
                         <div className="slide"><img src={filezilla} alt="filezilla" /></div>
+                        <div className="slide"><img src={nodejs} alt="node.js" /></div>
 
                     </div>
                 </div>
