@@ -1,5 +1,8 @@
 import React from 'react'
 import './style/project.css'
+import 'aos/dist/aos.css';
+import AOS from 'aos';
+
 import email from './images/email.png';
 import linkedin from './images/linkedin.png';
 
@@ -19,15 +22,17 @@ import filezilla from './images/filezilla.png';
 
 
 function project() {
+    AOS.init();
     return (
         <div className='project' id='#project'>
-            <div className='project-txt'>
+            <div className='project-txt' >
 
-                <h1 className='MyProject'>My Projects</h1>
+                <h1 className='MyProject' data-aos="fade-left">My Projects</h1>
 
-                <p>Welcome to my portfolio showcasing a selection of projects I completed during my college years. For a more in-depth look at each project, please visit my dedicated <a className='intext-link' href={'project'}>project page</a>. These projects represent the culmination of my academic journey, highlighting my skills, creativity, and dedication to delivering high-quality work.</p>
+                <p data-aos="fade-left">Welcome to my portfolio showcasing a selection of projects I completed during my college years. For a more in-depth look at each project, please visit my dedicated <a className='intext-link' href={'project'}>project page</a>. These projects represent the culmination of my academic journey, highlighting my skills, creativity, and dedication to delivering high-quality work.</p>
             </div>
-            <div className='project-details'>
+            <div className='project-details' data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom">
                 <div className="projectcol col1">
 
                     <div className='pic-col1'>
@@ -48,8 +53,8 @@ function project() {
 
             <div className="skills-cont">
 
-                <h2>My skills</h2>
-                <p>As an aspiring fresh graduate, I am deeply passionate about learning and embracing new technologies. I am highly motivated to continuously enhance my skills and stay informed about the latest advancements. For more information about my diverse range of abilities, please visit the <a className='intext-link' href={'about'}>about page</a>.</p>
+                <h2 data-aos="fade-left">My skills</h2>
+                <p data-aos="fade-left">As an aspiring fresh graduate, I am deeply passionate about learning and embracing new technologies. I am highly motivated to continuously enhance my skills and stay informed about the latest advancements. For more information about my diverse range of abilities, please visit the <a className='intext-link' href={'about'}>about page</a>.</p>
                 <div className="skills">
                     <div className="slide-track">
                         <div className="slide"><img src={office} alt="office" /></div>
