@@ -12,11 +12,13 @@ import proj1 from './images/Group 1.png'
 import proj2 from './images/Group 2.png'
 import proj3 from './images/Group 3.png'
 import proj4 from './images/PhilNITS_Certificate.jpg'
+import proj5 from './images/Javascript for Beginners_page-0001.jpg'
+import proj6 from './images/ReactJS for Beginners_page-0001.jpg'
 function project() {
 
     const pagination = {
         clickable: true,
-        dynamicBullets: true,
+        dynamicBullets: false,
     };
 
     var width = window.innerWidth
@@ -92,24 +94,34 @@ function project() {
                         <div className='slideimg'><img src={proj4} alt="PhilNITS Certificate" /></div>
                     </div>
                 </SwiperSlide>
+                <SwiperSlide>
+                    <div className="slide-conts">
+
+                        <div className='slide-details'>
+                            <h1>Javascript for Beginners - Simplilearn</h1>
+                            <p>Certified in 'Javascript for Beginners,' I have gained a solid understanding of the core concepts of JavaScript, empowering me to create dynamic and interactive web applications. </p>
+                            <br></br>
+
+                        </div>
+                        <div className='slideimg'><img src={proj5} alt="PhilNITS Certificate" /></div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="slide-conts">
+
+                        <div className='slide-details'>
+                            <h1>ReactJs for Beginners - Simplilearn</h1>
+                            <p>Certified in 'ReactJS for Beginners,' I have acquired the essential skills to build dynamic and responsive user interfaces using ReactJS.</p>
+                            <br></br>
+                        </div>
+                        <div className='slideimg'><img src={proj6} alt="PhilNITS Certificate" /></div>
+                    </div>
+                </SwiperSlide>
 
 
             </Swiper>
 
-            {/* <footer>
 
-                <h4>© 2023 Raphael Ortega. All rights reserved.</h4>
-                <div className='footer-img'>
-                    <a href="mailto:raphaelmar.ortega@gmail.com">
-
-                        <img src={email} alt="email" />
-                    </a>
-                    <a href="https://linkedin.com/in/raphael-ortega" target='_blank' rel="noreferrer" >
-
-                        <img src={linkedin} alt="linkedin" />
-                    </a>
-                </div>
-            </footer> */}
 
         </div>
     )
