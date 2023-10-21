@@ -2,10 +2,24 @@ import React, { Component } from 'react'
 import './style/header.css';
 import gradPic from './images/raphaelortega.png';
 import anime from 'animejs/lib/anime.es.js';
+import MoonLoader from 'react-spinners/MoonLoader';
 export class header extends Component {
-
-
+    constructor(props) {
+        super(props);
+        this.state = {
+            loading: false
+        };
+        this.imageLoaded = this.imageLoaded.bind(this)
+    }
+    imageLoaded() {
+        this.setState({
+            loading: true
+        })
+    }
     render() {
+
+
+
         var width = window.innerWidth;
         if (width <= 600) {
             setTimeout(() => {
@@ -56,8 +70,24 @@ export class header extends Component {
                             <button className='contact-btn'>Contact me!</button>
                         </a>
                     </div>
-                    <div className='pic-cont'>
-                        <img className='gradpic' src={gradPic} alt="gradpic"></img>
+                    <div className='pic-cont'  >
+
+                        {this.state.loading ?
+                            null
+                            :
+                            <MoonLoader
+                                color="rgba(124, 124, 124, 1)"
+                                loading={this.state.loading}
+                                size={40}
+
+                            />
+                        }
+
+                        <img className='gradpic' style={this.state.loading ? {} : { display: 'none' }} onLoad={this.imageLoaded} src={gradPic} alt="gradpic"></img>
+
+
+
+
                     </div>
                 </div>
             </div>

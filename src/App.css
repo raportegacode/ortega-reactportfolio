@@ -9,8 +9,6 @@
 
 }
 
-
-
 .html {
     scroll-behavior: smooth;
 }
@@ -37,7 +35,6 @@ footer h4 {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    /* width: 100%; */
 }
 
 .footer-img img {
